@@ -24,7 +24,7 @@ module.exports = {
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
-  maxItems: 100,
+  maxItems: 0,
 
   // [OPTIONAL] We use Google Fonts natively for font customisations.
   // You can check and generate the required links and names at https://fonts.google.com.
@@ -54,10 +54,6 @@ module.exports = {
     {
       name: 'Telegram',
       link: 'https://t.me/rkdgoott/',
-    },
-    {
-      name: 'GitHub',
-      link: 'https://www.google.com/',
     },
   ],
 
